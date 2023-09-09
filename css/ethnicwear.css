@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#homeclothing a{
+    padding-left: 5px;
+    text-decoration: none;
+    color: rgb(47, 43, 43);
+}
+#Fusionwear{
+    color: rgb(47, 43, 43);
+    padding-left: 5px;
+}
+#mainbody{
+    width: 100%;
+    
+
+}
+#mainsection{
+    width: 100%;
+}
+#leftbody{
+    display: flex;
+    float: left;
+    width: 17%;
+
+    border: 1px solid rgb(200, 195, 195);
+    
+}
+#rightbody{
+    display:inline-block;
+    padding: 20px;
+    padding-left: 20px;
+    width: 80%;
+    height: 700px;
+}
+.categorysection12 img{
+    padding-left: 30px;
+    height: 230px;
+    width: 200px;
+}
+#mainbodynav{
+    width: 100%;
+    height: 50px;
+}
+input.check{
+    width: 20px;
+    height: 20px;
+}
+.main{
+    display: block;
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#dropdownmenu1{
+    height: 50px;
+    display: flex;
+    float: left;
+    width: 18%;
+}
+#dropdownmenu2{
+    height: 50px;
+    display: flex;
+    float: right;
+    width: 75%;
+}
+#dropdownmenuleft1{
+    padding-top: 5px;
+    width: 50%;
+    display: flex;
+    float: left;
+}
+#dropdownmenuright1{
+    display: flex;
+    float: right;
+    width: 48%;
+
+}
+#dropdownmenuleft2{
+    width: 30%;
+    display: flex;
+    float: left;
+}
+#dropdownmenuright2{
+    display: flex;
+    float: right;
+    width: 65%;
+
+}
+#dropdownmenuright2 input{
+    margin-left: 500px;
+    padding-left: 20px;
+    width: 300px;
+    height: 30px;
+
+}
+#dropdownmenuleft2 select,input{
+    outline: none;
+    margin-top: 8px;
+    padding-top: 5px;
+    padding-left: 12px;
+    color: black;
+
+}
+#dropdownmenuleft2 form{
+    padding-left: 10px;
+}
+#dropdownmenuright1 h3{
+    padding-top: 5px;
+    color: red;
+}
+.box{
+    width: 100%;
+}
+forms{
+    border: 2px solid rgb(16, 15, 15);
+}
+.box h2{
+    padding-left: 25px;
+}
+@media (max-width:360px) {
+    #nav{
+        width: 100vw;
+        height: 60px;
+    }
+    .ri-menu-line{
+       
+        display: block;
+        font-size: 7vw;
+        padding-top: 10px;
+        margin-right: 9px;
+    }
+    
+    
+    #logo{
+        
+        margin-top: 14px;
+        height: 22px;
+        width: 34px;
+        padding-right: 12px;
+    }
+    #homeclothing{
+        display: none;
+    }
+    #Fusionwear{
+        display: none;
+    }
+    #dropdownmenu1{
+        display: none;
+    }
+}
